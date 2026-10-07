@@ -150,16 +150,17 @@
       color: var(--venue); background: var(--teal-wash); border-radius: 4px;
       padding: 1px 8px; font-weight: 700; letter-spacing: .2px;
     }
-    .pub-links { display: inline-flex; gap: 6px; }
+    .pub-links { display: inline-flex; align-items: center; gap: 6px; }
     .pub-links a {
       border: 1px solid var(--line); border-radius: 4px; padding: 0 8px; color: var(--link);
     }
     .pub-links a:hover { text-decoration: none; border-color: var(--teal-light); background: var(--teal-wash); }
     .pub-links a.talk {
-      display: inline-flex; align-items: center; gap: 3px;
-      color: #b4532a; border-color: #f0d3c4; background: #fdf3ee;
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 3px 14px 3px 11px; font-size: 14.5px; font-weight: 700; border-radius: 6px;
+      color: #b4532a; border-color: #ebc3ae; background: #fdf3ee;
     }
-    .pub-links a.talk svg { width: 11px; height: 11px; fill: currentColor; }
+    .pub-links a.talk svg { width: 14px; height: 14px; fill: currentColor; }
     .pub-links a.talk:hover { border-color: #b4532a; background: #fbe6dc; }
     .award {
       display: inline-flex; align-items: center; gap: 6px; margin-top: 6px;
